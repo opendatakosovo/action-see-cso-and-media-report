@@ -273,57 +273,57 @@ function getData() {return {
     },
     "19": {
       "Executive": {
-        "Very high": 0,
-        "High": 0,
-        "Moderate": 7,
-        "Low": 0,
-        "Very low": 0
+      "Very low": 0,
+      "Low": 0,
+      "Moderate": 7,
+      "High": 0,
+        "Very high": 0
       },
       "Legislative": {
-        "Very high": 1,
-        "High": 1,
-        "Moderate": 6,
-        "Low": 0,
-        "Very low": 0
+      "Very low": 0,
+      "Low": 0,
+      "Moderate": 6,
+      "High": 1,
+        "Very high": 1
       },
       "Judicial": {
-        "Very high": 0,
-        "High": 0,
-        "Moderate": 5,
-        "Low": 2,
-        "Very low": 0
+      "Very low": 0,
+      "Low": 2,
+      "Moderate": 5,
+      "High": 0,
+        "Very high": 0
       }
     },
     "21": {
       "Executive": {
-        "Very high": 0,
-        "High": 2,
-        "Moderate": 4,
-        "Low": 1,
-        "Very low": 0
+      "Very low": 0,
+      "Low": 1,
+      "Moderate": 4,
+      "High": 2,
+        "Very high": 0
       },
       "Legislative": {
-        "Very high": 0,
-        "High": 1,
-        "Moderate": 4,
-        "Low": 2,
-        "Very low": 0
+      "Very low": 0,
+      "Low": 2,
+      "Moderate": 4,
+      "High": 1,
+        "Very high": 0
       },
       "Judicial": {
-        "Very high": 0,
-        "High": 0,
-        "Moderate": 5,
-        "Low": 2,
-        "Very low": 0
+      "Very low": 0,
+      "Low": 2,
+      "Moderate": 5,
+      "High": 0,
+        "Very high": 0
       }
     },
     "22": {
       "Executive": {
-        "Very high": 0,
-        "High": 0,
-        "Moderate": 7,
-        "Low": 0,
-        "Very low": 0
+      "Very low": 0,
+      "Low": 0,
+      "Moderate": 7,
+      "High": 0,
+        "Very high": 0
       },
       "Legislative": {
       "Very low": 0,
