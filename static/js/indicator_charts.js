@@ -157,25 +157,25 @@ function drawBarChart(div, tab, stacked){
 		colName = colName.concat(i);
 
 		// Ensure keys are sorted correctly
-	    var keys = [];
-	    var k, j, len;
-
-	  	for (k in indices) {
-	    	if (indices.hasOwnProperty(k)) {
-				keys.push(k);
-	    	}
-		}
-
-		keys.sort();
-		len = keys.length;
-
-		// Cycle through keys in order
-		for (j = 0; j < len; j++) {
-		  	k = keys[j];
-			value = Number(Number(indices[k]).toFixed(rounding));
-			values.push(value);
-			xAxis.push(k);
-		}
+	  //   var keys = [];
+	  //   var k, j, len;
+		//
+	  // 	for (k in indices) {
+	  //   	if (indices.hasOwnProperty(k)) {
+		// 		keys.push(k);
+	  //   	}
+		// }
+		//
+		// keys.sort();
+		// len = keys.length;
+		//
+		// // Cycle through keys in order
+		// for (j = 0; j < len; j++) {
+		//   	k = keys[j];
+		// 	value = Number(Number(indices[k]).toFixed(rounding));
+		// 	values.push(value);
+		// 	xAxis.push(k);
+		// }
 
 		entry['name'] = seriesName;
 		entry['data'] = values;
