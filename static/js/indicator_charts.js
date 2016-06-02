@@ -233,7 +233,9 @@ function drawBarChart(div, tab, stacked){
 			plotLines: [{
 				value: 0,
 				width: 1,
-			}]
+			}],
+			 reversedStacks: false
+
 		},
 		tooltip: {
 			valuePrefix: prefix,

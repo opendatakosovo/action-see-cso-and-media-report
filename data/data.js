@@ -6,9 +6,7 @@ function getData() {return {
           "Moderate": 7,
           "Low": 1,
           "Very low": 1
-      },
-      legend: { reversed: true }
-
+      }
     },
     "2": {
         "Peoples": {
