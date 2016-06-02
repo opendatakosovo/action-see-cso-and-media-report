@@ -7,7 +7,7 @@ function getData() {return {
           "Low": 1,
           "Very low": 1
       },
-      index:1
+      legend: { reversed: true }
 
     },
     "2": {
