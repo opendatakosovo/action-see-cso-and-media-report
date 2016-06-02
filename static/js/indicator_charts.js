@@ -34,15 +34,7 @@ function drawLineChart(div, tab){
 		var xAxis = [];
 		colName = colName.concat(i);
 
-		// Ensure keys are sorted correctly
-	    var keys = [];
-	    var k, j, len;
 
-	  	for (k in indices) {
-	    	if (indices.hasOwnProperty(k)) {
-				keys.push(k);
-	    	}
-		}
 
 		len = keys.length;
 		// Cycle through keys in order
