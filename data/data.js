@@ -1,11 +1,11 @@
 function getData() {return {
     "1": {
       "Peoples": {
-          "Very high": 0,
-          "High": 3,
-          "Moderate": 7,
-          "Low": 1,
           "Very low": 1
+          "Low": 1,
+          "Moderate": 7,
+          "High": 3,
+          "Very high": 0
       }
     },
     "2": {
@@ -19,11 +19,11 @@ function getData() {return {
     },
     "3": {
       "Peoples": {
-          "Very high": 1,
-          "High": 3,
-          "Moderate": 7,
+          "Very low": 0,
           "Low": 1,
-          "Very low": 0
+          "Moderate": 7,
+          "High": 3,
+          "Very high": 1
       }
     },
     "4": {
@@ -35,11 +35,11 @@ function getData() {return {
     },
     "5": {
       "Peoples": {
-          "Very high": 2,
-          "High": 1,
-          "Moderate": 5,
+          "Very low": 1,
           "Low": 3,
-          "Very low": 1
+          "Moderate": 5,
+          "High": 1,
+          "Very high": 2
       }
     },
     "6": {
@@ -57,20 +57,20 @@ function getData() {return {
     },
     "6_2":{
         "Peoples": {
-          "Very high": 0,
-          "High": 2,
-          "Moderate": 1,
-          "Low": 1,
           "Very low ": 0
+          "Low": 1,
+          "Moderate": 1,
+          "High": 2,
+          "Very high": 0
         }
     },
     "7": {
       "Peoples": {
-        "Very high": 2,
-        "High": 4,
-        "Moderate": 4,
+        "Very low": 0,
         "Low": 2,
-        "Very low": 0
+        "Moderate": 4,
+        "High": 4,
+        "Very high": 2,
       }
     },
     "8": {
@@ -91,112 +91,112 @@ function getData() {return {
     },
     "10": {
       "Peoples": {
-        "Very high": 3,
-        "High": 3,
-        "Moderate": 6,
+        "Very low": 0,
         "Low": 0,
-        "Very low": 0
+        "Moderate": 6,
+        "High": 3,
+        "Very high": 3
       }
     },
     "11": {
       "Executive": {
-        "Very high": 1,
-        "High": 3,
-        "Moderate": 6,
+        "Very low": 0,
         "Low": 2,
-        "Very low": 0
+        "Moderate": 6,
+        "High": 3,
+        "Very high": 1
       },
       "Legislative": {
-        "Very high": 2,
-        "High": 6,
-        "Moderate": 3,
+        "Very low": 0,
         "Low": 1,
-        "Very low": 0
+        "Moderate": 3,
+        "High": 6,
+        "Very high": 2
       },
       "Judicial": {
-        "Very high": 1,
-        "High": 2,
-        "Moderate": 5,
+        "Very low": 2,
         "Low": 2,
-        "Very low": 2
+        "Moderate": 5,
+        "High": 2,
+        "Very high": 1
       }
     },
     "12": {
       "Executive": {
+      "Very low": 0,
+      "Low": 1,
+      "Moderate": 6,
+      "High": 3,
         "Very high": 2,
-        "High": 3,
-        "Moderate": 6,
-        "Low": 1,
-        "Very low": 0
       },
       "Legislative": {
-        "Very high": 1,
-        "High": 5,
-        "Moderate": 6,
-        "Low": 0,
-        "Very low": 0
+      "Very low": 0,
+      "Low": 0,
+      "Moderate": 6,
+      "High": 5,
+        "Very high": 1
       },
       "Judicial": {
-        "Very high": 1,
-        "High":5 ,
-        "Moderate": 4,
-        "Low": 2,
-        "Very low": 0
+      "Very low": 0,
+      "Low": 2,
+      "Moderate": 4,
+      "High":5 ,
+        "Very high": 1
       }
     },
     "13": {
       "Executive": {
-        "Very high": 0,
-        "High": 4,
-        "Moderate": 8,
-        "Low": 1,
-        "Very low": 0
+      "Very low": 0,
+      "Low": 1,
+      "Moderate": 8,
+      "High": 4,
+        "Very high": 0
       },
       "Legislative": {
-        "Very high": 0,
-        "High": 6,
-        "Moderate": 4,
-        "Low": 2,
-        "Very low": 0
+      "Very low": 0,
+      "Low": 2,
+      "Moderate": 4,
+      "High": 6,
+        "Very high": 0
       },
       "Judicial": {
-        "Very high": 1,
-        "High": 1,
-        "Moderate": 6,
-        "Low": 2,
-        "Very low": 2
+      "Very low": 2,
+      "Low": 2,
+      "Moderate": 6,
+      "High": 1,
+        "Very high": 1
       }
     },
     "14": {
       "Executive": {
-        "Very high": 0,
-        "High": 6,
-        "Moderate": 4,
-        "Low": 2,
-        "Very low": 0
+      "Very low": 0,
+      "Low": 2,
+      "Moderate": 4,
+      "High": 6,
+        "Very high": 0
       },
       "Legislative": {
-        "Very high": 1,
-        "High": 3,
-        "Moderate": 6,
-        "Low": 2,
-        "Very low": 0
+      "Very low": 0,
+      "Low": 2,
+      "Moderate": 6,
+      "High": 3,
+        "Very high": 1
       },
       "Judicial": {
-        "Very high": 2,
-        "High": 4,
-        "Moderate": 4,
-        "Low": 2,
-        "Very low": 0
+      "Very low": 0,
+      "Low": 2,
+      "Moderate": 4,
+      "High": 4,
+        "Very high": 2
       }
     },
     "15": {
       "Peoples": {
-          "Very high": 0,
-          "High": 0,
-          "Moderate": 5,
-          "Low": 2,
-          "Very low": 0
+      "Very low": 0,
+      "Low": 2,
+      "Moderate": 5,
+      "High": 0,
+          "Very high": 0
       }
     },
     "16": {
@@ -210,57 +210,57 @@ function getData() {return {
     },
     "17": {
       "Peoples": {
-          "Very high": 0,
-          "High": 0,
-          "Moderate": 6,
-          "Low": 1,
-          "Very low": 0
+      "Very low": 0,
+      "Low": 1,
+      "Moderate": 6,
+      "High": 0,
+          "Very high": 0
       }
     },
     "18": {
       "Executive": {
-        "Very high": 0,
-        "High": 1,
-        "Moderate": 3,
-        "Low": 3,
-        "Very low": 0
+      "Very low": 0,
+      "Low": 3,
+      "Moderate": 3,
+      "High": 1,
+        "Very high": 0
       },
       "Legislative": {
-        "Very high": 1,
-        "High": 1,
-        "Moderate": 5,
-        "Low": 0,
-        "Very low": 0
+      "Very low": 0,
+      "Low": 0,
+      "Moderate": 5,
+      "High": 1,
+        "Very high": 1
       },
       "Judicial": {
-        "Very high": 0,
-        "High": 0,
-        "Moderate": 4,
-        "Low": 3,
-        "Very low": 0
+      "Very low": 0,
+      "Low": 3,
+      "Moderate": 4,
+      "High": 0,
+        "Very high": 0
       }
     },
     "19": {
       "Executive": {
-        "Very high": 0,
-        "High": 3,
-        "Moderate": 4,
-        "Low": 0,
-        "Very low": 0
+      "Very low": 0,
+      "Low": 0,
+      "Moderate": 4,
+      "High": 3,
+        "Very high": 0
       },
       "Legislative": {
-        "Very high": 0,
-        "High": 4,
-        "Moderate": 3,
-        "Low": 0,
-        "Very low": 0
+      "Very low": 0,
+      "Low": 0,
+      "Moderate": 3,
+      "High": 4,
+        "Very high": 0
       },
       "Judicial": {
-        "Very high": 0,
-        "High": 3,
-        "Moderate": 2,
-        "Low": 2,
-        "Very low": 0
+      "Very low": 0,
+      "Low": 2,
+      "Moderate": 2,
+      "High": 3,
+        "Very high": 0
       }
     },
     "20": {
@@ -273,21 +273,21 @@ function getData() {return {
     },
     "19": {
       "Executive": {
-        "Very high": 0,
+        "Very high": 0
         "High": 0,
         "Moderate": 7,
         "Low": 0,
         "Very low": 0
       },
       "Legislative": {
-        "Very high": 1,
+        "Very high": 1
         "High": 1,
         "Moderate": 6,
         "Low": 0,
         "Very low": 0
       },
       "Judicial": {
-        "Very high": 0,
+        "Very high": 0
         "High": 0,
         "Moderate": 5,
         "Low": 2,
@@ -296,21 +296,21 @@ function getData() {return {
     },
     "21": {
       "Executive": {
-        "Very high": 0,
+        "Very high": 0
         "High": 2,
         "Moderate": 4,
         "Low": 1,
         "Very low": 0
       },
       "Legislative": {
-        "Very high": 0,
+        "Very high": 0
         "High": 1,
         "Moderate": 4,
         "Low": 2,
         "Very low": 0
       },
       "Judicial": {
-        "Very high": 0,
+        "Very high": 0
         "High": 0,
         "Moderate": 5,
         "Low": 2,
@@ -319,94 +319,94 @@ function getData() {return {
     },
     "22": {
       "Executive": {
-        "Very high": 0,
+        "Very high": 0
         "High": 0,
         "Moderate": 7,
         "Low": 0,
         "Very low": 0
       },
       "Legislative": {
-        "Very high": 0,
-        "High": 1,
-        "Moderate": 6,
-        "Low": 0,
-        "Very low": 0
+      "Very low": 0,
+      "Low": 0,
+      "Moderate": 6,
+      "High": 1,
+        "Very high": 0
       },
       "Judicial": {
-        "Very high": 0,
-        "High": 0,
-        "Moderate": 5,
-        "Low": 2,
-        "Very low": 0
+      "Very low": 0,
+      "Low": 2,
+      "Moderate": 5,
+      "High": 0,
+        "Very high": 0
       }
     },
     "23": {
       "Executive": {
-        "Very high": 0,
-        "High": 0,
-        "Moderate": 6,
-        "Low": 1,
-        "Very low": 0
+      "Very low": 0,
+      "Low": 1,
+      "Moderate": 6,
+      "High": 0,
+        "Very high": 0
       },
       "Legislative": {
-        "Very high": 0,
-        "High": 2,
-        "Moderate": 4,
-        "Low": 1,
-        "Very low": 0
+      "Very low": 0,
+      "Low": 1,
+      "Moderate": 4,
+      "High": 2,
+        "Very high": 0
       },
       "Judicial": {
-        "Very high": 0,
-        "High": 0,
-        "Moderate":4,
-        "Low": 3,
-        "Very low": 0
+      "Very low": 0,
+      "Low": 3,
+      "Moderate":4,
+      "High": 0,
+        "Very high": 0
       }
     },
     "24": {
       "Executive": {
-        "Very high": 0,
-        "High": 1,
-        "Moderate": 5,
-        "Low": 1,
-        "Very low": 0
+      "Very low": 0,
+      "Low": 1,
+      "Moderate": 5,
+      "High": 1,
+      "Very high": 0
       },
       "Legislative": {
-        "Very high": 0,
-        "High": 1,
-        "Moderate": 5,
-        "Low": 1,
-        "Very low": 0
+      "Very low": 0,
+      "Low": 1,
+      "Moderate": 5,
+      "High": 1,
+        "Very high": 0
       },
       "Judicial": {
-        "Very high": 0,
-        "High": 1,
-        "Moderate": 5,
+        "Very low": 0,
         "Low": 1,
-        "Very low": 0
+        "Moderate": 5,
+        "High": 1,
+        "Very high": 0
       }
     },
     "25": {
       "Executive": {
-        "Very high": 0,
-        "High": 0,
-        "Moderate": 5,
-        "Low": 2,
-        "Very low": 0
+      "Very low": 0,
+      "Low": 2,
+      "Moderate": 5,
+      "High": 0,
+      "Very high": 0
       },
       "Legislative": {
-        "Very high": 0,
-        "High": 0,
-        "Moderate": 5,
-        "Low": 2,
-        "Very low": 0
+       "Very low": 0,
+       "Low": 2,
+       "Moderate": 5,
+       "High": 0,
+        "Very high": 0
       },
       "Judicial": {
-        "Very high": 0,
-        "High": 0,
-        "Moderate": 4,
+        "Very low": 0,
         "Low": 3,
-        "Very low": 0
+        "Moderate": 4,
+        "High": 0,
+        "Very high": 0
       }
     },
     "meta": {

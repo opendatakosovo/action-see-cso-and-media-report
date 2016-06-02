@@ -3,7 +3,6 @@ var allData = getData();
 var lineColor = '#000000'
 var font = 'Helvetica'
 
-
 function drawBarChart(div, tab, stacked){
 	var chartTitle = allData['meta']['chart_title'][tab];
 	var yAxis = allData['meta']['y_axis'][tab];
@@ -50,7 +49,6 @@ function drawBarChart(div, tab, stacked){
 				keys.push(k);
 	    	}
 		}
-
 		//keys.sort();
 		len = keys.length;
 
