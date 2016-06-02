@@ -3,121 +3,6 @@ var allData = getData();
 var lineColor = '#000000'
 var font = 'Helvetica'
 
-function drawLineChart(div, tab){
-	var chartTitle = allData['meta']['chart_title'][tab];
-	var yAxis = allData['meta']['y_axis'][tab];
-	var background = allData['meta']['bg_color'][tab];
-	var rounding = allData['meta']['rounding'][tab];
-	var legend = false;
-
-	// Get Suffixes and Prefixes
-	var prefix = allData['meta']['prefix'][tab];
-	var suffix = allData['meta']['suffix'][tab];
-	if (prefix == '_'){
-		prefix = '';
-	}
-	if (suffix == '_'){
-		suffix = '';
-	}
-
-	// Get values for charts
-	var data = [];
-	var lineColors = [];
-	var i = 1;
-
-	for (keyOne in allData[tab]){
-		var entry = {};
-		var values = [];
-		var colName = 'line_color_';
-		var seriesName = keyOne;
-		var indices = allData[tab][keyOne];
-		var xAxis = [];
-		colName = colName.concat(i);
-
-		// Ensure keys are sorted correctly
-	    var keys = [];
-	    var k, j, len;
-
-	  	for (k in indices) {
-	    	if (indices.hasOwnProperty(k)) {
-				keys.push(k);
-	    	}
-		}
-
-		keys.sort();
-		len = keys.length;
-
-		// Cycle through keys in order
-		for (j = 0; j < len; j++) {
-		  	k = keys[j];
-			value = Number(Number(indices[k]).toFixed(rounding));
-			values.push(value);
-			xAxis.push(k);
-		}
-
-		// Get meta data
-		entry['name'] = seriesName;
-		entry['data'] = values;
-		entry['color'] = allData['meta'][colName][tab];
-		data.push(entry);
-
-		// Check if Legend is needed (i.e. there is more than 1 series)
-		if (i > 1){
-			legend = true;
-		}
-		i = i + 1;
-	}
-
-	$('#' + div).highcharts({
-		title: {
-			text: chartTitle, // Chart text from meta data
-			x: 0 //center
-		},
-        chart: {
-			backgroundColor: background, // Background color
-            style: {
-                fontFamily: font
-            }
-        },
-		xAxis: {
-			lineColor: lineColor,
-			tickColor: lineColor,
-			categories: xAxis, // list of index values
-			labels: {
-				style: {
-					color: lineColor
-				}
-			}
-		},
-		yAxis: {
-			title: {
-				text: yAxis,
-				style: {
-					color: lineColor
-				}
-			},
-			labels: {
-				style: {
-					color: lineColor
-				}
-			},
-			gridLineColor: lineColor,
-			gridLineDashStyle: 'ShortDot',
-			plotLines: [{
-				value: 0,
-				width: 1,
-			}]
-		},
-		tooltip: {
-			valuePrefix: prefix,
-			valueSuffix: suffix
-		},
-		legend: {
-			enabled: legend
-		},
-		series: data
-	});
-}
 
 function drawBarChart(div, tab, stacked){
 	var chartTitle = allData['meta']['chart_title'][tab];
@@ -166,7 +51,7 @@ function drawBarChart(div, tab, stacked){
 	    	}
 		}
 
-		keys.sort();
+		//keys.sort();
 		len = keys.length;
 
 		// Cycle through keys in order
