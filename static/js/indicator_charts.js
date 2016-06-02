@@ -8,7 +8,7 @@ function drawLineChart(div, tab){
 	var yAxis = allData['meta']['y_axis'][tab];
 	var background = allData['meta']['bg_color'][tab];
 	var rounding = allData['meta']['rounding'][tab];
-	var legend = true;
+	var legend = false;
 
 	// Get Suffixes and Prefixes
 	var prefix = allData['meta']['prefix'][tab];
@@ -44,9 +44,7 @@ function drawLineChart(div, tab){
 	    	}
 		}
 
-		keys.sort();
 		len = keys.length;
-
 		// Cycle through keys in order
 		for (j = 0; j < len; j++) {
 		  	k = keys[j];
@@ -233,8 +231,7 @@ function drawBarChart(div, tab, stacked){
 			plotLines: [{
 				value: 0,
 				width: 1,
-			}],
-			 reversedStacks: false
+			}]
 
 		},
 		tooltip: {
