@@ -1,7 +1,7 @@
 function getData() {return {
     "1": {
       "Peoples": {
-          "Very low": 1
+          "Very low": 1,
           "Low": 1,
           "Moderate": 7,
           "High": 3,
