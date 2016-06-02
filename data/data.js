@@ -326,7 +326,7 @@ function getData() {return {
         "Very low": 0
       },
       "Legislative": {
-        "Very high": 1,
+        "Very high": 0,
         "High": 1,
         "Moderate": 6,
         "Low": 0,
