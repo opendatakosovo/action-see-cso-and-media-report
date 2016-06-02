@@ -307,7 +307,7 @@ $(document).ready(function(){
 	drawBarChart('chart20', '20', false);
 	drawBarChart('chart21', '21', false);
 	drawBarChart('chart22', '22', false);
-	drawBarChart('chart20', '23', false);
-	drawBarChart('chart21', '24', false);
-	drawBarChart('chart22', '25', false);
+	drawBarChart('chart23', '23', false);
+	drawBarChart('chart24', '24', false);
+	drawBarChart('chart25', '25', false);
 })
