@@ -57,7 +57,7 @@ function getData() {return {
     },
     "6_2":{
         "Peoples": {
-          "Very low ": 0
+          "Very low ": 0,
           "Low": 1,
           "Moderate": 1,
           "High": 2,
