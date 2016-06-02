@@ -8,7 +8,7 @@ function drawLineChart(div, tab){
 	var yAxis = allData['meta']['y_axis'][tab];
 	var background = allData['meta']['bg_color'][tab];
 	var rounding = allData['meta']['rounding'][tab];
-	var legend = false;
+	var legend = true;
 
 	// Get Suffixes and Prefixes
 	var prefix = allData['meta']['prefix'][tab];
