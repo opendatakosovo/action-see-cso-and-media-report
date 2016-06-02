@@ -1,412 +1,412 @@
 function getData() {return {
     "1": {
-      "Persona": {
-          "Nivel shume i larte": 0,
-          "Nivel te larte": 3,
-          "Nivel mesatar": 7,
-          "Nivel te ulet": 1,
-          "Nivel shume te ulet": 1
+      "Peoples": {
+          "Very high": 0,
+          "High": 3,
+          "Moderate": 7,
+          "Low": 1,
+          "Very low": 1
       }
     },
     "2": {
-        "Persona": {
-          "PO - Situata eshte permiresuar": 1,
-          "PO - Situata ne thelb nuk eshte ndryshuar": 2,
-          "PO - Situata eshte keqesuar": 3,
-          "PO - Nuk e di": 1,
-          "JO" :  5
+        "Peoples": {
+          "Yes - The situation has improved better ": 1,
+          "Yes - They situation has not changed significantly": 2,
+          "Yes - The situation has worsened ": 3,
+          "Yes - I do not know": 1,
+          "No" :  5
         }
     },
     "3": {
-      "Persona": {
-          "Nivel shume i larte": 1,
-          "Nivel te larte": 3,
-          "Nivel mesatar": 7,
-          "Nivel te ulet": 1,
-          "Nivel shume te ulet": 0
+      "Peoples": {
+          "Very high": 1,
+          "High": 3,
+          "Moderate": 7,
+          "Low": 1,
+          "Very ": 0
       }
     },
     "4": {
-        "Persona": {
-            "PO": 6,
-            "JO": 3,
-            "Abstenim": 3
+        "Peoples": {
+            "Yes": 6,
+            "No": 3,
+            "No answer": 3
         }
     },
     "5": {
-      "Persona": {
-          "Nivel shume i larte": 2,
-          "Nivel te larte": 1,
-          "Nivel mesatar": 5,
-          "Nivel te ulet": 3,
-          "Nivel shume te ulet": 1
+      "Peoples": {
+          "Very high": 2,
+          "High": 1,
+          "Moderate": 5,
+          "Low": 3,
+          "Very ": 1
       }
     },
     "6": {
-      "Persona": {
-          "PO": 7,
-          "JO": 4,
-          "Abstenim": 1
+      "Peoples": {
+          "Yes": 7,
+          "No": 4,
+          "No answer": 1
       }
     },
     "6_1":{
-        "Persona": {
-          "PO": 4,
-          "JO": 3
+        "Peoples": {
+          "Yes": 4,
+          "No": 3
         }
     },
     "6_2":{
-        "Persona": {
-          "Nivel shume i larte": 0,
-          "Nivel te larte": 2,
-          "Nivel mesatar": 1,
-          "Nivel te ulet": 1,
-          "Nivel shume te ulet": 0
+        "Peoples": {
+          "Very high": 0,
+          "High": 2,
+          "Moderate": 1,
+          "Low": 1,
+          "Very ": 0
         }
     },
     "7": {
-      "Persona": {
-        "Nivel shume i larte": 2,
-        "Nivel te larte": 4,
-        "Nivel mesatar": 4,
-        "Nivel te ulet": 2,
-        "Nivel shume te ulet": 0
+      "Peoples": {
+        "Very high": 2,
+        "High": 4,
+        "Moderate": 4,
+        "Low": 2,
+        "Very ": 0
       }
     },
     "8": {
-        "Persona": {
-            "Pjesemarrja ne  grupet e punes dhe organeve te tjera te formuara nga organet e administrates qendrore ": 4,
-            "Organizimi i diskutimeve te perbashketa publike, tryeza te rrumbullaketa, seminare dhe forma te tjera te aktiviteteve te perbashketa": 6,
-            "Kontakte personale me grupet e interesit": 2,
-            "Tjera ": 0
+        "Peoples": {
+            "Participation in working groups and other bodies formed by the state administration bodies": 4,
+            "Organizing joint public discussions, round tables, seminars and other forms of joint activities": 6,
+            "Personal contacts with stakeholders": 2,
+            "Other": 0
         }
     },
     "9": {
-        "Infant mortality rate": {
-            "Kerkesat per lirine e shprehjes": 5,
-            "Kanaleve zyrtare te komunikimit": 4,
-            "Kontakteve personale": 3,
-            "Tjera": 0
+        "Peoples": {
+            "FOI requests": 5,
+            "Official channels of communications": 4,
+            "Personal contacts": 3,
+            "Other": 0
         }
     },
     "10": {
-      "Persona": {
-        "Nivel shume i larte": 3,
-        "Nivel te larte": 3,
-        "Nivel mesatar": 6,
-        "Nivel te ulet": 0,
-        "Nivel shume te ulet": 0
+      "Peoples": {
+        "Very high": 3,
+        "High": 3,
+        "Moderate": 6,
+        "Low": 0,
+        "Very ": 0
       }
     },
     "11": {
-      "Ekzekutivi": {
-        "Nivel shume i larte": 1,
-        "Nivel te larte": 3,
-        "Nivel mesatar": 12,
-        "Nivel te ulet": 3,
-        "Nivel shume te ulet": 0
+      "Executive": {
+        "Very high": 1,
+        "High": 3,
+        "Moderate": 12,
+        "Low": 3,
+        "Very ": 0
       },
-      "Legjislativi": {
-        "Nivel shume i larte": 2,
-        "Nivel te larte": 8,
-        "Nivel mesatar": 6,
-        "Nivel te ulet": 1,
-        "Nivel shume te ulet": 1
+      "Legislative": {
+        "Very high": 2,
+        "High": 8,
+        "Moderate": 6,
+        "Low": 1,
+        "Very ": 1
       },
-      "Gjygjesori": {
-        "Nivel shume i larte": 1,
-        "Nivel te larte": 2,
-        "Nivel mesatar": 9,
-        "Nivel te ulet": 5,
-        "Nivel shume te ulet": 2
+      "Judicial": {
+        "Very high": 1,
+        "High": 2,
+        "Moderate": 9,
+        "Low": 5,
+        "Very ": 2
       }
     },
     "12": {
-      "Ekzekutivi": {
-        "Nivel shume i larte": 2,
-        "Nivel te larte": 3,
-        "Nivel mesatar": 11,
-        "Nivel te ulet": 2,
-        "Nivel shume te ulet": 0
+      "Executive": {
+        "Very high": 2,
+        "High": 3,
+        "Moderate": 11,
+        "Low": 2,
+        "Very ": 0
       },
-      "Legjislativi": {
-        "Nivel shume i larte": 1,
-        "Nivel te larte": 6,
-        "Nivel mesatar": 11,
-        "Nivel te ulet": 1,
-        "Nivel shume te ulet": 0
+      "Legislative": {
+        "Very high": 1,
+        "High": 6,
+        "Moderate": 11,
+        "Low": 1,
+        "Very ": 0
       },
-      "Gjygjesori": {
-        "Nivel shume i larte": 1,
-        "Nivel te larte":6 ,
-        "Nivel mesatar": 9,
-        "Nivel te ulet": 2,
-        "Nivel shume te ulet": 0
+      "Judicial": {
+        "Very high": 1,
+        "High":6 ,
+        "Moderate": 9,
+        "Low": 2,
+        "Very ": 0
       }
     },
     "13": {
-      "Ekzekutivi": {
-        "Nivel shume i larte": 0,
-        "Nivel te larte": 4,
-        "Nivel mesatar": 13,
-        "Nivel te ulet": 3,
-        "Nivel shume te ulet": 0
+      "Executive": {
+        "Very high": 0,
+        "High": 4,
+        "Moderate": 13,
+        "Low": 3,
+        "Very ": 0
       },
-      "Legjislativi": {
-        "Nivel shume i larte": 0,
-        "Nivel te larte": 7,
-        "Nivel mesatar": 9,
-        "Nivel te ulet": 3,
-        "Nivel shume te ulet": 0
+      "Legislative": {
+        "Very high": 0,
+        "High": 7,
+        "Moderate": 9,
+        "Low": 3,
+        "Very ": 0
       },
-      "Gjygjesori": {
-        "Nivel shume i larte": 1,
-        "Nivel te larte": 1,
-        "Nivel mesatar": 9,
-        "Nivel te ulet": 5,
-        "Nivel shume te ulet": 2
+      "Judicial": {
+        "Very high": 1,
+        "High": 1,
+        "Moderate": 9,
+        "Low": 5,
+        "Very ": 2
       }
     },
     "14": {
-      "Ekzekutivi": {
-        "Nivel shume i larte": 0,
-        "Nivel te larte": 6,
-        "Nivel mesatar": 4,
-        "Nivel te ulet": 2,
-        "Nivel shume te ulet": 0
+      "Executive": {
+        "Very high": 0,
+        "High": 6,
+        "Moderate": 4,
+        "Low": 2,
+        "Very ": 0
       },
-      "Legjislativi": {
-        "Nivel shume i larte": 1,
-        "Nivel te larte": 3,
-        "Nivel mesatar": 6,
-        "Nivel te ulet": 2,
-        "Nivel shume te ulet": 0
+      "Legislative": {
+        "Very high": 1,
+        "High": 3,
+        "Moderate": 6,
+        "Low": 2,
+        "Very ": 0
       },
-      "Gjygjesori": {
-        "Nivel shume i larte": 2,
-        "Nivel te larte": 4,
-        "Nivel mesatar": 4,
-        "Nivel te ulet": 2,
-        "Nivel shume te ulet": 0
+      "Judicial": {
+        "Very high": 2,
+        "High": 4,
+        "Moderate": 4,
+        "Low": 2,
+        "Very ": 0
       }
     },
     "15": {
-      "Persona": {
-          "Nivel shume i larte": 0,
-          "Nivel te larte": 0,
-          "Nivel mesatar": 5,
-          "Nivel te ulet": 2,
-          "Nivel shume te ulet": 0
+      "Peoples": {
+          "Very high": 0,
+          "High": 0,
+          "Moderate": 5,
+          "Low": 2,
+          "Very ": 0
       }
     },
     "16": {
-        "Persona": {
-          "PO - Situata eshte permiresuar": 1,
-          "PO - Situata ne thelb nuk eshte ndryshuar": 5,
-          "PO - Situata eshte keqesuar": 0,
-          "PO - Nuk e di": 0,
-          "JO" :  1
+        "Peoples": {
+          "Yes - The situation has improved better ": 1,
+          "Yes - They situation has not changed significantly": 5,
+          "Yes - The situation has worsened ": 0,
+          "Yes - I do not know": 0,
+          "No" :  1
         }
     },
     "17": {
-      "Persona": {
-          "Nivel shume i larte": 0,
-          "Nivel te larte": 0,
-          "Nivel mesatar": 6,
-          "Nivel te ulet": 1,
-          "Nivel shume te ulet": 0
+      "Peoples": {
+          "Very high": 0,
+          "High": 0,
+          "Moderate": 6,
+          "Low": 1,
+          "Very ": 0
       }
     },
     "18": {
-      "Ekzekutivi": {
-        "Nivel shume i larte": 0,
-        "Nivel te larte": 1,
-        "Nivel mesatar": 3,
-        "Nivel te ulet": 3,
-        "Nivel shume te ulet": 0
+      "Executive": {
+        "Very high": 0,
+        "High": 1,
+        "Moderate": 3,
+        "Low": 3,
+        "Very ": 0
       },
-      "Legjislativi": {
-        "Nivel shume i larte": 1,
-        "Nivel te larte": 1,
-        "Nivel mesatar": 5,
-        "Nivel te ulet": 0,
-        "Nivel shume te ulet": 0
+      "Legislative": {
+        "Very high": 1,
+        "High": 1,
+        "Moderate": 5,
+        "Low": 0,
+        "Very ": 0
       },
-      "Gjygjesori": {
-        "Nivel shume i larte": 0,
-        "Nivel te larte": 0,
-        "Nivel mesatar": 4,
-        "Nivel te ulet": 3,
-        "Nivel shume te ulet": 0
+      "Judicial": {
+        "Very high": 0,
+        "High": 0,
+        "Moderate": 4,
+        "Low": 3,
+        "Very ": 0
       }
     },
     "19": {
-      "Ekzekutivi": {
-        "Nivel shume i larte": 0,
-        "Nivel te larte": 3,
-        "Nivel mesatar": 4,
-        "Nivel te ulet": 0,
-        "Nivel shume te ulet": 0
+      "Executive": {
+        "Very high": 0,
+        "High": 3,
+        "Moderate": 4,
+        "Low": 0,
+        "Very ": 0
       },
-      "Legjislativi": {
-        "Nivel shume i larte": 0,
-        "Nivel te larte": 4,
-        "Nivel mesatar": 3,
-        "Nivel te ulet": 0,
-        "Nivel shume te ulet": 0
+      "Legislative": {
+        "Very high": 0,
+        "High": 4,
+        "Moderate": 3,
+        "Low": 0,
+        "Very ": 0
       },
-      "Gjygjesori": {
-        "Nivel shume i larte": 0,
-        "Nivel te larte": 3,
-        "Nivel mesatar": 2,
-        "Nivel te ulet": 2,
-        "Nivel shume te ulet": 0
+      "Judicial": {
+        "Very high": 0,
+        "High": 3,
+        "Moderate": 2,
+        "Low": 2,
+        "Very ": 0
       }
     },
     "20": {
-      "Persona": {
-          "Kerkesat per lirine e shprehjes": 0,
-          "Kanaleve zyrtare te komunikimit": 2,
-          "Kontakte personale": 5,
-          "Tjera": 0
+      "Peoples": {
+          "FOI requests": 0,
+          "Official channels of communications ": 2,
+          "Personal contacts": 5,
+          "Other": 0
       }
     },
     "19": {
-      "Ekzekutivi": {
-        "Nivel shume i larte": 0,
-        "Nivel te larte": 0,
-        "Nivel mesatar": 7,
-        "Nivel te ulet": 0,
-        "Nivel shume te ulet": 0
+      "Executive": {
+        "Very high": 0,
+        "High": 0,
+        "Moderate": 7,
+        "Low": 0,
+        "Very ": 0
       },
-      "Legjislativi": {
-        "Nivel shume i larte": 1,
-        "Nivel te larte": 1,
-        "Nivel mesatar": 6,
-        "Nivel te ulet": 0,
-        "Nivel shume te ulet": 0
+      "Legislative": {
+        "Very high": 1,
+        "High": 1,
+        "Moderate": 6,
+        "Low": 0,
+        "Very ": 0
       },
-      "Gjygjesori": {
-        "Nivel shume i larte": 0,
-        "Nivel te larte": 0,
-        "Nivel mesatar": 5,
-        "Nivel te ulet": 2,
-        "Nivel shume te ulet": 0
+      "Judicial": {
+        "Very high": 0,
+        "High": 0,
+        "Moderate": 5,
+        "Low": 2,
+        "Very ": 0
       }
     },
     "21": {
-      "Ekzekutivi": {
-        "Nivel shume i larte": 0,
-        "Nivel te larte": 2,
-        "Nivel mesatar": 4,
-        "Nivel te ulet": 1,
-        "Nivel shume te ulet": 0
+      "Executive": {
+        "Very high": 0,
+        "High": 2,
+        "Moderate": 4,
+        "Low": 1,
+        "Very ": 0
       },
-      "Legjislativi": {
-        "Nivel shume i larte": 0,
-        "Nivel te larte": 1,
-        "Nivel mesatar": 4,
-        "Nivel te ulet": 2,
-        "Nivel shume te ulet": 0
+      "Legislative": {
+        "Very high": 0,
+        "High": 1,
+        "Moderate": 4,
+        "Low": 2,
+        "Very ": 0
       },
-      "Gjygjesori": {
-        "Nivel shume i larte": 0,
-        "Nivel te larte": 0,
-        "Nivel mesatar": 5,
-        "Nivel te ulet": 2,
-        "Nivel shume te ulet": 0
+      "Judicial": {
+        "Very high": 0,
+        "High": 0,
+        "Moderate": 5,
+        "Low": 2,
+        "Very ": 0
       }
     },
     "22": {
-      "Ekzekutivi": {
-        "Nivel shume i larte": 0,
-        "Nivel te larte": 0,
-        "Nivel mesatar": 7,
-        "Nivel te ulet": 0,
-        "Nivel shume te ulet": 0
+      "Executive": {
+        "Very high": 0,
+        "High": 0,
+        "Moderate": 7,
+        "Low": 0,
+        "Very ": 0
       },
-      "Legjislativi": {
-        "Nivel shume i larte": 1,
-        "Nivel te larte": 1,
-        "Nivel mesatar": 6,
-        "Nivel te ulet": 0,
-        "Nivel shume te ulet": 0
+      "Legislative": {
+        "Very high": 1,
+        "High": 1,
+        "Moderate": 6,
+        "Low": 0,
+        "Very ": 0
       },
-      "Gjygjesori": {
-        "Nivel shume i larte": 0,
-        "Nivel te larte": 0,
-        "Nivel mesatar": 5,
-        "Nivel te ulet": 2,
-        "Nivel shume te ulet": 0
+      "Judicial": {
+        "Very high": 0,
+        "High": 0,
+        "Moderate": 5,
+        "Low": 2,
+        "Very ": 0
       }
     },
     "23": {
-      "Ekzekutivi": {
-        "Nivel shume i larte": 0,
-        "Nivel te larte": 0,
-        "Nivel mesatar": 6,
-        "Nivel te ulet": 1,
-        "Nivel shume te ulet": 0
+      "Executive": {
+        "Very high": 0,
+        "High": 0,
+        "Moderate": 6,
+        "Low": 1,
+        "Very ": 0
       },
-      "Legjislativi": {
-        "Nivel shume i larte": 0,
-        "Nivel te larte": 2,
-        "Nivel mesatar": 4,
-        "Nivel te ulet": 0,
-        "Nivel shume te ulet": 0
+      "Legislative": {
+        "Very high": 0,
+        "High": 2,
+        "Moderate": 4,
+        "Low": 0,
+        "Very ": 0
       },
-      "Gjygjesori": {
-        "Nivel shume i larte": 0,
-        "Nivel te larte": 0,
-        "Nivel mesatar": 4,
-        "Nivel te ulet": 3,
-        "Nivel shume te ulet": 0
+      "Judicial": {
+        "Very high": 0,
+        "High": 0,
+        "Moderate": 4,
+        "Low": 3,
+        "Very ": 0
       }
     },
     "24": {
-      "Ekzekutivi": {
-        "Nivel shume i larte": 0,
-        "Nivel te larte": 1,
-        "Nivel mesatar": 5,
-        "Nivel te ulet": 1,
-        "Nivel shume te ulet": 0
+      "Executive": {
+        "Very high": 0,
+        "High": 1,
+        "Moderate": 5,
+        "Low": 1,
+        "Very ": 0
       },
-      "Legjislativi": {
-        "Nivel shume i larte": 0,
-        "Nivel te larte": 1,
-        "Nivel mesatar": 5,
-        "Nivel te ulet": 1,
-        "Nivel shume te ulet": 0
+      "Legislative": {
+        "Very high": 0,
+        "High": 1,
+        "Moderate": 5,
+        "Low": 1,
+        "Very ": 0
       },
-      "Gjygjesori": {
-        "Nivel shume i larte": 0,
-        "Nivel te larte": 1,
-        "Nivel mesatar": 5,
-        "Nivel te ulet": 1,
-        "Nivel shume te ulet": 0
+      "Judicial": {
+        "Very high": 0,
+        "High": 1,
+        "Moderate": 5,
+        "Low": 1,
+        "Very ": 0
       }
     },
     "25": {
-      "Ekzekutivi": {
-        "Nivel shume i larte": 0,
-        "Nivel te larte": 0,
-        "Nivel mesatar": 5,
-        "Nivel te ulet": 2,
-        "Nivel shume te ulet": 0
+      "Executive": {
+        "Very high": 0,
+        "High": 0,
+        "Moderate": 5,
+        "Low": 2,
+        "Very ": 0
       },
-      "Legjislativi": {
-        "Nivel shume i larte": 0,
-        "Nivel te larte": 1,
-        "Nivel mesatar": 5,
-        "Nivel te ulet": 1,
-        "Nivel shume te ulet": 0
+      "Legislative": {
+        "Very high": 0,
+        "High": 1,
+        "Moderate": 5,
+        "Low": 1,
+        "Very ": 0
       },
-      "Gjygjesori": {
-        "Nivel shume i larte": 0,
-        "Nivel te larte": 0,
-        "Nivel mesatar": 4,
-        "Nivel te ulet": 3,
-        "Nivel shume te ulet": 0
+      "Judicial": {
+        "Very high": 0,
+        "High": 0,
+        "Moderate": 4,
+        "Low": 3,
+        "Very ": 0
       }
     },
 
@@ -438,30 +438,30 @@ function getData() {return {
             "22": "#C7EAFD"
         },
         "chart_title": {
-            "1":  "Deri ne cfare mase shteti siguron kushte te favorshme per nje rrol efektiv te OSHC-ve?",
-            "2":  "A keni njohuri se si kane ndryshuar dispozitat ligjore, rregulloret apo politikat ne funksionimin e OSHC-ve ne Kosove?Nese po, si do ti vleresoni ato ndryshime.",
-            "3":  "Ne cfare mase OSHC-te luajne rrol te forte dhe efektiv ne Kosove?",
-            "4":  "A ka nje dokument ligjor qe e rregullon bashkepunimin ndermjet autoriteteve dhe OSHC-ve?",
-            "5":  "Deri ne cfare mase autoritetet publike jane duke vendosur bashkpunimin konstruktiv me OSHC-te?(Niveli i komunikimit, pjesemarrja ne iniciativa te perbashketa etj)",
-            "6":  "A eshte vendi juaj anetare e Partneritetit per Qeverisje te Hapur(Open Goverment Partnership - OGP)?",
-            "6_1": "Vendi anetar ne OGP - A ka nje taskforce kombetare qe perfshin perfaqsues te OSHC-ve?",
-            "6_2": "Vendi anetar ne OGP - Deri ne cfare mase OSHC-te kane ndikim ne kete proces?",
-            "7":  "Deri ne cfare mase OSHC-te jane pjese e procesit te berjes se politikave?",
-            "8":  "Cilat jane keto mekanizma bashkpunimi me istitucionet i konsideroni si me efektive?",
-            "9":  "Cilat jane keto mekanizma per marrjen e informacionit, te cilat nuk jane shpalosur publikisht nga institucionet, i konsideroni si me efektive?",
-            "10": "Deri ne cfare mase munden OSHC-te te ndikojne ne aplikimin e standarteve te qeverisjes se mire nga ana e institucioneve shteterore ne vendin tuaj (Transparenca, Qasshmeria, Pjesemarrja, Bashkeveprimi etj)?",
-            "11": "Deri ne cfare mase institucionet e Kosoves jane transparent dhe te hapur?",
-            "12": "Deri ne cfare mase institucionet e Kosoves jane te pergjegjshem per veprimet e tyre?",
-            "13": "Deri ne cfare mase institucionet e Kosoves jane efikase ne punen e tyre?",
-            "14": "Kur kerkoni informacione nga institucionet shteterore, sa te shpejte jane ata ne pergjigjjet e tyre?",
-            "15": "Deri ne cfare mase shteti siguron kushte te favorshme per nje rrol efektiv te mediave?",
-            "16": "A keni njohuri se si kane ndryshuar dispozitat ligjore, rregulloret apo politikat ne funksionimin e mediave ne Kosove? Nese po, si do ti vleresoni ato ndryshime.",
-            "17": "Deri ne cfare mase autoritetet publike jane duke vendosur bashkpunimin konstruktiv me mediat?(Niveli i komunikimit, qasje e barabarte ne informacione etj)",
-            "18": "Deri ne cfare mase institucionet shteterore  sigurojne trajtim te barabarte te te gjitha mediave?",
-            "19": "Deri ne cfare mase munden mediat te ndikojne ne aplikimin e standarteve te qeverisjes se mire nga ana e institucioneve shteterore(Transparenca, Llogaridhenia, Pjesemarrja, Bashkeveprimi etj)?",
-            "20": "Cilat jane keto mekanizma per marrjen e informacionit i konsideroni si me efektive?",
-            "21": "Si e vleresoni qasjen e mediave be informacionet e dhena nga autoritetet e meposhtme?",
-            "22": "Kur kerkoni informacione nga institucionet shteterore,sa te shpejte jane ata ne pergjigjjet e tyre?"
+            "1":  "1. To what extent does the state provide favorable conditions for an effective role of CSOs?",
+            "2":  "2. Are you familiar with how legal provisions, regulations or policies regarding to the functioning of CSOs in Montenegro have changed?2.1.	If yes, how would you assess those changes?",
+            "3":  "3. To what extent CSOs play strong and effective role in Montenegro?",
+            "4":  "4. Is there a legal document that regulates the cooperation between authorities and CSOs?",
+            "5":  "5. To what extent are public authorities establishing a constructive cooperation with CSOs? (the level of communication, participation in joint initiatives etc.)",
+            "6":  "6. Is your country member of Open Government Partnership (OGP)?",
+            "6_1": "6.1. If Country member of Open Government Partnership (OGP), is there a national task force that includes representatives of CSOs?",
+            "6_2": "6.2. If Country member of Open Government Partnership (OGP), to what extent CSOs have the influence on that process?",
+            "7":  "7. To what extent CSOs are part of the policy-making process?",
+            "8":  "8. Which of the following mechanisms for the cooperation with institutions do you consider as the most effective?",
+            "9":  "9. Which of the following mechanisms for obtaining information, which are not publicly disclosed, from the institutions do you consider as the most effective?",
+            "10": "10. To what extent can  CSOs influence the application of good governance standards by state institutions in your country? (Transparency, Accountability, Accessibility, Participation, Interaction etc.)",
+            "11": "11. To what extent are state institutions in Montenegro transparent and open?",
+            "12": "12. To what extent are state institutions in Montenegro accountable for their actions?",
+            "13": "13. To what extent are state institutions in Montenegro efficient in their work?",
+            "14": "14. When asking information from state institutions, how prompt are they in their answers?",
+            "15": "1. To what extent does the state provide favorable conditions for an effective role of media?",
+            "16": "2. Are you familiar with how legal provisions, regulations or policies regarding the functioning of media in Montenegro have changed? If yes, how would you assess those changes?",
+            "17": "3. To what extent are the public authorities establishing a constructive cooperation with media? (the level of communication, equal access to information etc.)",
+            "18": "4. To what extent do state institutions provide an equal treatment of all media?",
+            "19": "5. To what extent can the media influence the application of good governance standards by state institutions in Montenegro? (Transparency, Accountability, Accessibility, Participation, Interaction etc.)",
+            "20": "6. Which of the following mechanisms for obtaining information from state institutions do you consider as the most effective?",
+            "21": "7. How would you rate the media access to information provided by the following authorities?",
+            "22": "8.	When asking information from state institutions, how prompt are they in their answers?"
         },
         "line_color_1": {
             "1":  "#191500",
@@ -495,8 +495,7 @@ function getData() {return {
             "3":  NaN,
             "4":  NaN,
             "5":  NaN,
-            "6":  NaN,
-            "6_1": NaN,
+            "6":  NaN    "6_1": NaN,
             "6_2": NaN,
             "7": NaN,
             "8":  NaN,
@@ -647,30 +646,30 @@ function getData() {return {
             "22": "_"
         },
         "y_axis": {
-            "1":  "Numri i personave",
-            "2":  "Numri i personave",
-            "3":  "Numri i personave",
-            "4":  "Numri i personave",
-            "5":  "Numri i personave",
-            "6":  "Numri i personave",
-            "6_1": "Numri i personave",
-            "6_2": "Numri i personave",
-            "7":  "Numri i personave",
-            "8":  "Numri i personave",
-            "9":  "Numri i personave",
-            "10": "Numri i personave",
-            "11": "Numri i personave",
-            "12": "Numri i personave",
-            "13": "Numri i personave",
-            "14": "Numri i personave",
-            "15":  "Numri i personave",
-            "16":  "Numri i personave",
-            "17":  "Numri i personave",
-            "18":  "Numri i personave",
-            "19":  "Numri i personave",
-            "20": "Numri i personave",
-            "21": "Numri i personave",
-            "22": "Numri i personave"
+            "1":  "Number of peoples",
+            "2":  "Number of peoples",
+            "3":  "Number of peoples",
+            "4":  "Number of peoples",
+            "5":  "Number of peoples",
+            "6":  "Number of peoples",
+            "6_1": "Number of peoples",
+            "6_2": "Number of peoples",
+            "7":  "Number of peoples",
+            "8":  "Number of peoples",
+            "9":  "Number of peoples",
+            "10": "Number of peoples",
+            "11": "Number of peoples",
+            "12": "Number of peoples",
+            "13": "Number of peoples",
+            "14": "Number of peoples",
+            "15":  "Number of peoples",
+            "16":  "Number of peoples",
+            "17":  "Number of peoples",
+            "18":  "Number of peoples",
+            "19":  "Number of peoples",
+            "20": "Number of peoples",
+            "21": "Number of peoples",
+            "22": "Number of peoples"
         }
     }
 }}
