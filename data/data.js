@@ -107,42 +107,65 @@ function getData() {return {
         "Very ": 0
       },
       "Legislative": {
-        "Very high": 1,
-        "High": 2,
-        "Moderate": 5,
-        "Low": 2,
-        "Very ": 2
-      },
-      "Judicial": {
-        "Very high": 1,
-        "High": 2,
-        "Moderate": 9,
-        "Low": 5,
-        "Very ": 2
-      }
-    },
-    "12": {
-      "Executive": {
         "Very high": 2,
-        "High": 3,
-        "Moderate": 11,
-        "Low": 2,
-        "Very ": 0
-      },
-      "Legislative": {
-        "Very high": 1,
         "High": 6,
-        "Moderate": 11,
+        "Moderate": 3,
         "Low": 1,
         "Very ": 0
       },
       "Judicial": {
         "Very high": 1,
-        "High":6 ,
-        "Moderate": 9,
+        "High": 2,
+        "Moderate": 5,
+        "Low": 2,
+        "Very ": 2
+      }
+    },
+    "12": {
+      "nje":{
+      "Executive": {
+        "Very high": 2,
+        "High": 3,
+        "Moderate": 6,
+        "Low": 1,
+        "Very ": 0
+      },
+      "Legislative": {
+        "Very high": 1,
+        "High": 5,
+        "Moderate": 6,
+        "Low": 0,
+        "Very ": 0
+      },
+      "Judicial": {
+        "Very high": 1,
+        "High":5 ,
+        "Moderate": 4,
         "Low": 2,
         "Very ": 0
-      }
+      }},
+      "dy":{
+      "Executive": {
+        "Very high": 2,
+        "High": 3,
+        "Moderate": 6,
+        "Low": 1,
+        "Very ": 0
+      },
+      "Legislative": {
+        "Very high": 1,
+        "High": 5,
+        "Moderate": 6,
+        "Low": 0,
+        "Very ": 0
+      },
+      "Judicial": {
+        "Very high": 1,
+        "High":5 ,
+        "Moderate": 4,
+        "Low": 2,
+        "Very ": 0
+      }}
     },
     "13": {
       "Executive": {
@@ -439,8 +462,8 @@ function getData() {return {
         },
         "chart_title": {
             "1":  "1. To what extent does the state provide favorable conditions for an effective role of CSOs?",
-            "2":  "2. Are you familiar with how legal provisions, regulations or policies regarding to the functioning of CSOs in Montenegro have changed? If yes, how would you assess those changes?",
-            "3":  "3. To what extent CSOs play strong and effective role in Montenegro?",
+            "2":  "2. Are you familiar with how legal provisions, regulations or policies regarding to the functioning of CSOs in Kosovo have changed? If yes, how would you assess those changes?",
+            "3":  "3. To what extent CSOs play strong and effective role in Kosovo?",
             "4":  "4. Is there a legal document that regulates the cooperation between authorities and CSOs?",
             "5":  "5. To what extent are public authorities establishing a constructive cooperation with CSOs? (the level of communication, participation in joint initiatives etc.)",
             "6":  "6. Is your country member of Open Government Partnership (OGP)?",
@@ -450,15 +473,15 @@ function getData() {return {
             "8":  "8. Which of the following mechanisms for the cooperation with institutions do you consider as the most effective?",
             "9":  "9. Which of the following mechanisms for obtaining information, which are not publicly disclosed, from the institutions do you consider as the most effective?",
             "10": "10. To what extent can  CSOs influence the application of good governance standards by state institutions in your country? (Transparency, Accountability, Accessibility, Participation, Interaction etc.)",
-            "11": "11. To what extent are state institutions in Montenegro transparent and open?",
-            "12": "12. To what extent are state institutions in Montenegro accountable for their actions?",
-            "13": "13. To what extent are state institutions in Montenegro efficient in their work?",
+            "11": "11. To what extent are state institutions in Kosovo transparent and open?",
+            "12": "12. To what extent are state institutions in Kosovo accountable for their actions?",
+            "13": "13. To what extent are state institutions in Kosovo efficient in their work?",
             "14": "14. When asking information from state institutions, how prompt are they in their answers?",
             "15": "1. To what extent does the state provide favorable conditions for an effective role of media?",
-            "16": "2. Are you familiar with how legal provisions, regulations or policies regarding the functioning of media in Montenegro have changed? If yes, how would you assess those changes?",
+            "16": "2. Are you familiar with how legal provisions, regulations or policies regarding the functioning of media in Kosovo have changed? If yes, how would you assess those changes?",
             "17": "3. To what extent are the public authorities establishing a constructive cooperation with media? (the level of communication, equal access to information etc.)",
             "18": "4. To what extent do state institutions provide an equal treatment of all media?",
-            "19": "5. To what extent can the media influence the application of good governance standards by state institutions in Montenegro? (Transparency, Accountability, Accessibility, Participation, Interaction etc.)",
+            "19": "5. To what extent can the media influence the application of good governance standards by state institutions in Kosovo? (Transparency, Accountability, Accessibility, Participation, Interaction etc.)",
             "20": "6. Which of the following mechanisms for obtaining information from state institutions do you consider as the most effective?",
             "21": "7. How would you rate the media access to information provided by the following authorities?",
             "22": "8.	When asking information from state institutions, how prompt are they in their answers?"
