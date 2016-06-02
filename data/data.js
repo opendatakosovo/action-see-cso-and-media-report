@@ -280,14 +280,14 @@ function getData() {return {
         "Very low": 0
       },
       "Legislative": {
-        "Very high": 1
+        "Very high": 1,
         "High": 1,
         "Moderate": 6,
         "Low": 0,
         "Very low": 0
       },
       "Judicial": {
-        "Very high": 0
+        "Very high": 0,
         "High": 0,
         "Moderate": 5,
         "Low": 2,
@@ -296,21 +296,21 @@ function getData() {return {
     },
     "21": {
       "Executive": {
-        "Very high": 0
+        "Very high": 0,
         "High": 2,
         "Moderate": 4,
         "Low": 1,
         "Very low": 0
       },
       "Legislative": {
-        "Very high": 0
+        "Very high": 0,
         "High": 1,
         "Moderate": 4,
         "Low": 2,
         "Very low": 0
       },
       "Judicial": {
-        "Very high": 0
+        "Very high": 0,
         "High": 0,
         "Moderate": 5,
         "Low": 2,
@@ -319,7 +319,7 @@ function getData() {return {
     },
     "22": {
       "Executive": {
-        "Very high": 0
+        "Very high": 0,
         "High": 0,
         "Moderate": 7,
         "Low": 0,
