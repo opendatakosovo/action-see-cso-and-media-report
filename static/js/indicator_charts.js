@@ -276,7 +276,10 @@ $(document).ready(function(){
 		$("#chart-div-19").append("<div id='chart19' style='margin: auto; min-width: 310px; max-width: 800px; width: 100%; height: 400px;'></div>");
 		$("#chart-div-20").append("<div id='chart20' style='margin: auto; min-width: 310px; max-width: 800px; width: 100%; height: 400px;'></div>");
 		$("#chart-div-21").append("<div id='chart21' style='margin: auto; min-width: 310px; max-width: 800px; width: 100%; height: 400px;'></div>");
-		$("#chart-div-12").append("<div id='chart22' style='margin: auto; min-width: 310px; max-width: 800px; width: 100%; height: 400px;'></div>");
+		$("#chart-div-22").append("<div id='chart22' style='margin: auto; min-width: 310px; max-width: 800px; width: 100%; height: 400px;'></div>");
+		$("#chart-div-23").append("<div id='chart23' style='margin: auto; min-width: 310px; max-width: 800px; width: 100%; height: 400px;'></div>");
+		$("#chart-div-24").append("<div id='chart24' style='margin: auto; min-width: 310px; max-width: 800px; width: 100%; height: 400px;'></div>");
+		$("#chart-div-25").append("<div id='chart25' style='margin: auto; min-width: 310px; max-width: 800px; width: 100%; height: 400px;'></div>");
     }
 
 	// Draw Charts
@@ -304,4 +307,7 @@ $(document).ready(function(){
 	drawBarChart('chart20', '20', false);
 	drawBarChart('chart21', '21', false);
 	drawBarChart('chart22', '22', false);
+	drawBarChart('chart20', '23', false);
+	drawBarChart('chart21', '24', false);
+	drawBarChart('chart22', '25', false);
 })

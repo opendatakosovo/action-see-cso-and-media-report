@@ -122,7 +122,6 @@ function getData() {return {
       }
     },
     "12": {
-      "nje":{
       "Executive": {
         "Very high": 2,
         "High": 3,
@@ -143,50 +142,28 @@ function getData() {return {
         "Moderate": 4,
         "Low": 2,
         "Very ": 0
-      }},
-      "dy":{
-      "Executive": {
-        "Very high": 2,
-        "High": 3,
-        "Moderate": 6,
-        "Low": 1,
-        "Very ": 0
-      },
-      "Legislative": {
-        "Very high": 1,
-        "High": 5,
-        "Moderate": 6,
-        "Low": 0,
-        "Very ": 0
-      },
-      "Judicial": {
-        "Very high": 1,
-        "High":5 ,
-        "Moderate": 4,
-        "Low": 2,
-        "Very ": 0
-      }}
+      }
     },
     "13": {
       "Executive": {
         "Very high": 0,
         "High": 4,
-        "Moderate": 13,
-        "Low": 3,
+        "Moderate": 8,
+        "Low": 1,
         "Very ": 0
       },
       "Legislative": {
         "Very high": 0,
-        "High": 7,
-        "Moderate": 9,
-        "Low": 3,
+        "High": 6,
+        "Moderate": 4,
+        "Low": 2,
         "Very ": 0
       },
       "Judicial": {
         "Very high": 1,
         "High": 1,
-        "Moderate": 9,
-        "Low": 5,
+        "Moderate": 6,
+        "Low": 2,
         "Very ": 2
       }
     },
@@ -432,7 +409,75 @@ function getData() {return {
         "Very ": 0
       }
     },
-
+    "23": {
+      "Executive": {
+        "Very high": 0,
+        "High": 0,
+        "Moderate": 6,
+        "Low": 1,
+        "Very ": 0
+      },
+      "Legislative": {
+        "Very high": 0,
+        "High": 2,
+        "Moderate": 4,
+        "Low": 1,
+        "Very ": 0
+      },
+      "Judicial": {
+        "Very high": 0,
+        "High": 0,
+        "Moderate":4,
+        "Low": 3,
+        "Very ": 0
+      }
+    },
+    "24": {
+      "Executive": {
+        "Very high": 0,
+        "High": 1,
+        "Moderate": 5,
+        "Low": 1,
+        "Very ": 0
+      },
+      "Legislative": {
+        "Very high": 0,
+        "High": 1,
+        "Moderate": 5,
+        "Low": 1,
+        "Very ": 0
+      },
+      "Judicial": {
+        "Very high": 0,
+        "High": 1,
+        "Moderate": 5,
+        "Low": 1,
+        "Very ": 0
+      }
+    },
+    "25": {
+      "Executive": {
+        "Very high": 0,
+        "High": 0,
+        "Moderate": 5,
+        "Low": 2,
+        "Very ": 0
+      },
+      "Legislative": {
+        "Very high": 0,
+        "High": 0,
+        "Moderate": 5,
+        "Low": 2,
+        "Very ": 0
+      },
+      "Judicial": {
+        "Very high": 0,
+        "High": 0,
+        "Moderate": 4,
+        "Low": 3,
+        "Very ": 0
+      }
+    },
     "meta": {
         "bg_color": {
             "1": "#C7EAFD",
@@ -458,7 +503,10 @@ function getData() {return {
             "19": "#C7EAFD",
             "20": "#C7EAFD",
             "21": "#C7EAFD",
-            "22": "#C7EAFD"
+            "22": "#C7EAFD",
+            "23": "#C7EAFD",
+            "24": "#C7EAFD",
+            "25": "#C7EAFD"
         },
         "chart_title": {
             "1":  "1. To what extent does the state provide favorable conditions for an effective role of CSOs?",
@@ -484,7 +532,10 @@ function getData() {return {
             "19": "5. To what extent can the media influence the application of good governance standards by state institutions in Kosovo? (Transparency, Accountability, Accessibility, Participation, Interaction etc.)",
             "20": "6. Which of the following mechanisms for obtaining information from state institutions do you consider as the most effective?",
             "21": "7. How would you rate the media access to information provided by the following authorities?",
-            "22": "8.	When asking information from state institutions, how prompt are they in their answers?"
+            "22": "8.	When asking information from state institutions, how prompt are they in their answers?",
+            "23": "9. To what extent are state institutions in Kosovo transparent and open?",
+            "24": "10. To what extent are state institutions in Kosovo accountable for their actions?",
+            "25": "11. To what extent are state institutions in Kosovo efficient in their work?"
         },
         "line_color_1": {
             "1":  "#191500",
@@ -510,7 +561,10 @@ function getData() {return {
             "19":  "#191500",
             "20": "#191500",
             "21": "#191500",
-            "22": "#191500"
+            "22": "#191500",
+            "23": "#191500",
+            "24": "#191500",
+            "25": "#191500"
         },
         "line_color_2": {
             "1":  NaN,
@@ -536,7 +590,10 @@ function getData() {return {
             "19": NaN,
             "20": NaN,
             "21": NaN,
-            "22": NaN
+            "22": NaN,
+            "23": NaN,
+            "24": NaN,
+            "25": NaN
         },
         "line_color_3": {
             "1":  NaN,
@@ -562,7 +619,10 @@ function getData() {return {
             "19":  NaN,
             "20": NaN,
             "21": NaN,
-            "22": NaN
+            "22": NaN,
+            "23": NaN,
+            "24": NaN,
+            "25": NaN
         },
         "line_color_4": {
             "1":  NaN,
@@ -588,7 +648,10 @@ function getData() {return {
             "19":  NaN,
             "20": NaN,
             "21": NaN,
-            "22": NaN
+            "22": NaN,
+            "23": NaN,
+            "24": NaN,
+            "25": NaN
         },
         "prefix": {
             "1":  "_",
@@ -614,7 +677,10 @@ function getData() {return {
             "19":  "_",
             "20": "_",
             "21": "_",
-            "22": "_"
+            "22": "_",
+            "23": "_",
+            "24": "_",
+            "25":"_"
 
         },
         "rounding": {
@@ -641,7 +707,11 @@ function getData() {return {
             "19":  1,
             "20": 1,
             "21": 1,
-            "22": 1
+            "22": 1,
+            "23": 1,
+            "24": 1,
+            "25":1
+
         },
         "suffix": {
             "1":  "_",
@@ -667,7 +737,10 @@ function getData() {return {
             "19":  "_",
             "20": "_",
             "21": "_",
-            "22": "_"
+            "22": "_",
+            "23": "_",
+            "24": "_",
+            "25":"_"
         },
         "y_axis": {
             "1":  "Number of peoples",
@@ -693,7 +766,10 @@ function getData() {return {
             "19":  "Number of peoples",
             "20": "Number of peoples",
             "21": "Number of peoples",
-            "22": "Number of peoples"
+            "22": "Number of peoples",
+            "23": "Number of peoples",
+            "24": "Number of peoples",
+            "25": "Number of peoples"
         }
     }
 }}
