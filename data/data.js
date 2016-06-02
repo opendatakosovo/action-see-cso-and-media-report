@@ -23,7 +23,7 @@ function getData() {return {
           "High": 3,
           "Moderate": 7,
           "Low": 1,
-          "Very ": 0
+          "Very low": 0
       }
     },
     "4": {
@@ -39,7 +39,7 @@ function getData() {return {
           "High": 1,
           "Moderate": 5,
           "Low": 3,
-          "Very ": 1
+          "Very low": 1
       }
     },
     "6": {
@@ -61,7 +61,7 @@ function getData() {return {
           "High": 2,
           "Moderate": 1,
           "Low": 1,
-          "Very ": 0
+          "Very low ": 0
         }
     },
     "7": {
@@ -70,7 +70,7 @@ function getData() {return {
         "High": 4,
         "Moderate": 4,
         "Low": 2,
-        "Very ": 0
+        "Very low": 0
       }
     },
     "8": {
@@ -95,7 +95,7 @@ function getData() {return {
         "High": 3,
         "Moderate": 6,
         "Low": 0,
-        "Very ": 0
+        "Very low": 0
       }
     },
     "11": {
@@ -104,21 +104,21 @@ function getData() {return {
         "High": 3,
         "Moderate": 6,
         "Low": 2,
-        "Very ": 0
+        "Very low": 0
       },
       "Legislative": {
         "Very high": 2,
         "High": 6,
         "Moderate": 3,
         "Low": 1,
-        "Very ": 0
+        "Very low": 0
       },
       "Judicial": {
         "Very high": 1,
         "High": 2,
         "Moderate": 5,
         "Low": 2,
-        "Very ": 2
+        "Very low": 2
       }
     },
     "12": {
@@ -127,21 +127,21 @@ function getData() {return {
         "High": 3,
         "Moderate": 6,
         "Low": 1,
-        "Very ": 0
+        "Very low": 0
       },
       "Legislative": {
         "Very high": 1,
         "High": 5,
         "Moderate": 6,
         "Low": 0,
-        "Very ": 0
+        "Very low": 0
       },
       "Judicial": {
         "Very high": 1,
         "High":5 ,
         "Moderate": 4,
         "Low": 2,
-        "Very ": 0
+        "Very low": 0
       }
     },
     "13": {
@@ -150,21 +150,21 @@ function getData() {return {
         "High": 4,
         "Moderate": 8,
         "Low": 1,
-        "Very ": 0
+        "Very low": 0
       },
       "Legislative": {
         "Very high": 0,
         "High": 6,
         "Moderate": 4,
         "Low": 2,
-        "Very ": 0
+        "Very low": 0
       },
       "Judicial": {
         "Very high": 1,
         "High": 1,
         "Moderate": 6,
         "Low": 2,
-        "Very ": 2
+        "Very low": 2
       }
     },
     "14": {
@@ -173,21 +173,21 @@ function getData() {return {
         "High": 6,
         "Moderate": 4,
         "Low": 2,
-        "Very ": 0
+        "Very low": 0
       },
       "Legislative": {
         "Very high": 1,
         "High": 3,
         "Moderate": 6,
         "Low": 2,
-        "Very ": 0
+        "Very low": 0
       },
       "Judicial": {
         "Very high": 2,
         "High": 4,
         "Moderate": 4,
         "Low": 2,
-        "Very ": 0
+        "Very low": 0
       }
     },
     "15": {
@@ -196,7 +196,7 @@ function getData() {return {
           "High": 0,
           "Moderate": 5,
           "Low": 2,
-          "Very ": 0
+          "Very low": 0
       }
     },
     "16": {
@@ -214,7 +214,7 @@ function getData() {return {
           "High": 0,
           "Moderate": 6,
           "Low": 1,
-          "Very ": 0
+          "Very low": 0
       }
     },
     "18": {
@@ -223,21 +223,21 @@ function getData() {return {
         "High": 1,
         "Moderate": 3,
         "Low": 3,
-        "Very ": 0
+        "Very low": 0
       },
       "Legislative": {
         "Very high": 1,
         "High": 1,
         "Moderate": 5,
         "Low": 0,
-        "Very ": 0
+        "Very low": 0
       },
       "Judicial": {
         "Very high": 0,
         "High": 0,
         "Moderate": 4,
         "Low": 3,
-        "Very ": 0
+        "Very low": 0
       }
     },
     "19": {
@@ -246,21 +246,21 @@ function getData() {return {
         "High": 3,
         "Moderate": 4,
         "Low": 0,
-        "Very ": 0
+        "Very low": 0
       },
       "Legislative": {
         "Very high": 0,
         "High": 4,
         "Moderate": 3,
         "Low": 0,
-        "Very ": 0
+        "Very low": 0
       },
       "Judicial": {
         "Very high": 0,
         "High": 3,
         "Moderate": 2,
         "Low": 2,
-        "Very ": 0
+        "Very low": 0
       }
     },
     "20": {
@@ -277,21 +277,21 @@ function getData() {return {
         "High": 0,
         "Moderate": 7,
         "Low": 0,
-        "Very ": 0
+        "Very low": 0
       },
       "Legislative": {
         "Very high": 1,
         "High": 1,
         "Moderate": 6,
         "Low": 0,
-        "Very ": 0
+        "Very low": 0
       },
       "Judicial": {
         "Very high": 0,
         "High": 0,
         "Moderate": 5,
         "Low": 2,
-        "Very ": 0
+        "Very low": 0
       }
     },
     "21": {
@@ -300,21 +300,21 @@ function getData() {return {
         "High": 2,
         "Moderate": 4,
         "Low": 1,
-        "Very ": 0
+        "Very low": 0
       },
       "Legislative": {
         "Very high": 0,
         "High": 1,
         "Moderate": 4,
         "Low": 2,
-        "Very ": 0
+        "Very low": 0
       },
       "Judicial": {
         "Very high": 0,
         "High": 0,
         "Moderate": 5,
         "Low": 2,
-        "Very ": 0
+        "Very low": 0
       }
     },
     "22": {
@@ -323,21 +323,21 @@ function getData() {return {
         "High": 0,
         "Moderate": 7,
         "Low": 0,
-        "Very ": 0
+        "Very low": 0
       },
       "Legislative": {
         "Very high": 1,
         "High": 1,
         "Moderate": 6,
         "Low": 0,
-        "Very ": 0
+        "Very low": 0
       },
       "Judicial": {
         "Very high": 0,
         "High": 0,
         "Moderate": 5,
         "Low": 2,
-        "Very ": 0
+        "Very low": 0
       }
     },
     "23": {
@@ -346,21 +346,21 @@ function getData() {return {
         "High": 0,
         "Moderate": 6,
         "Low": 1,
-        "Very ": 0
+        "Very low": 0
       },
       "Legislative": {
         "Very high": 0,
         "High": 2,
         "Moderate": 4,
         "Low": 1,
-        "Very ": 0
+        "Very low": 0
       },
       "Judicial": {
         "Very high": 0,
         "High": 0,
         "Moderate":4,
         "Low": 3,
-        "Very ": 0
+        "Very low": 0
       }
     },
     "24": {
@@ -369,21 +369,21 @@ function getData() {return {
         "High": 1,
         "Moderate": 5,
         "Low": 1,
-        "Very ": 0
+        "Very low": 0
       },
       "Legislative": {
         "Very high": 0,
         "High": 1,
         "Moderate": 5,
         "Low": 1,
-        "Very ": 0
+        "Very low": 0
       },
       "Judicial": {
         "Very high": 0,
         "High": 1,
         "Moderate": 5,
         "Low": 1,
-        "Very ": 0
+        "Very low": 0
       }
     },
     "25": {
@@ -392,21 +392,21 @@ function getData() {return {
         "High": 0,
         "Moderate": 5,
         "Low": 2,
-        "Very ": 0
+        "Very low": 0
       },
       "Legislative": {
         "Very high": 0,
         "High": 0,
         "Moderate": 5,
         "Low": 2,
-        "Very ": 0
+        "Very low": 0
       },
       "Judicial": {
         "Very high": 0,
         "High": 0,
         "Moderate": 4,
         "Low": 3,
-        "Very ": 0
+        "Very low": 0
       }
     },
     "meta": {
@@ -446,8 +446,8 @@ function getData() {return {
             "4":  "Is there a legal document that regulates the cooperation between authorities and CSOs?",
             "5":  "To what extent are public authorities establishing a constructive cooperation with CSOs? (the level of communication, participation in joint initiatives etc.)",
             "6":  "Is your country member of Open Government Partnership (OGP)?",
-            "6_1": "If Country member of Open Government Partnership (OGP), is there a national task force that includes representatives of CSOs?",
-            "6_2": "If Country member of Open Government Partnership (OGP), to what extent CSOs have the influence on that process?",
+            "6_1":"If Country member of Open Government Partnership (OGP), is there a national task force that includes representatives of CSOs?",
+            "6_2":"If Country member of Open Government Partnership (OGP), to what extent CSOs have the influence on that process?",
             "7":  "To what extent CSOs are part of the policy-making process?",
             "8":  "Which of the following mechanisms for the cooperation with institutions do you consider as the most effective?",
             "9":  "Which of the following mechanisms for obtaining information, which are not publicly disclosed, from the institutions do you consider as the most effective?",
