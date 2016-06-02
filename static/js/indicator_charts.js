@@ -306,7 +306,7 @@ $(document).ready(function(){
 	drawBarChart('chart18', '18', false);
 	drawBarChart('chart19', '19', false);
 	drawBarChart('chart20', '20', false);
-	drawBarChart('chart21', '21', false);s
+	drawBarChart('chart21', '21', false);
 	drawBarChart('chart22', '22', false);
 	drawBarChart('chart23', '23', false);
 	drawBarChart('chart24', '24', false);
