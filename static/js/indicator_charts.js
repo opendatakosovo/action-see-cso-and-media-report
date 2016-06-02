@@ -165,17 +165,17 @@ function drawBarChart(div, tab, stacked){
 				keys.push(k);
 	    	}
 		}
-		//
-		// keys.sort();
-		// len = keys.length;
-		//
-		// // Cycle through keys in order
-		// for (j = 0; j < len; j++) {
-		//   	k = keys[j];
-		// 	value = Number(Number(indices[k]).toFixed(rounding));
-		// 	values.push(value);
-		// 	xAxis.push(k);
-		// }
+
+		keys.sort();
+		len = keys.length;
+
+		// Cycle through keys in order
+		for (j = 0; j < len; j++) {
+		  	k = keys[j];
+			value = Number(Number(indices[k]).toFixed(rounding));
+			values.push(value);
+			xAxis.push(k);
+		}
 
 		entry['name'] = seriesName;
 		entry['data'] = values;
