@@ -157,14 +157,14 @@ function drawBarChart(div, tab, stacked){
 		colName = colName.concat(i);
 
 		// Ensure keys are sorted correctly
-	  //   var keys = [];
-	  //   var k, j, len;
-		//
-	  // 	for (k in indices) {
-	  //   	if (indices.hasOwnProperty(k)) {
-		// 		keys.push(k);
-	  //   	}
-		// }
+	    var keys = [];
+	    var k, j, len;
+
+	  	for (k in indices) {
+	    	if (indices.hasOwnProperty(k)) {
+				keys.push(k);
+	    	}
+		}
 		//
 		// keys.sort();
 		// len = keys.length;
