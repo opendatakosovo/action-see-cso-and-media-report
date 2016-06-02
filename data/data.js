@@ -102,16 +102,16 @@ function getData() {return {
       "Executive": {
         "Very high": 1,
         "High": 3,
-        "Moderate": 12,
-        "Low": 3,
+        "Moderate": 6,
+        "Low": 2,
         "Very ": 0
       },
       "Legislative": {
-        "Very high": 2,
-        "High": 8,
-        "Moderate": 6,
-        "Low": 1,
-        "Very ": 1
+        "Very high": 1,
+        "High": 2,
+        "Moderate": 5,
+        "Low": 2,
+        "Very ": 2
       },
       "Judicial": {
         "Very high": 1,
