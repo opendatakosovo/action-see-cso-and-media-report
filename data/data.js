@@ -439,7 +439,7 @@ function getData() {return {
         },
         "chart_title": {
             "1":  "1. To what extent does the state provide favorable conditions for an effective role of CSOs?",
-            "2":  "2. Are you familiar with how legal provisions, regulations or policies regarding to the functioning of CSOs in Montenegro have changed?2.1.	If yes, how would you assess those changes?",
+            "2":  "2. Are you familiar with how legal provisions, regulations or policies regarding to the functioning of CSOs in Montenegro have changed? If yes, how would you assess those changes?",
             "3":  "3. To what extent CSOs play strong and effective role in Montenegro?",
             "4":  "4. Is there a legal document that regulates the cooperation between authorities and CSOs?",
             "5":  "5. To what extent are public authorities establishing a constructive cooperation with CSOs? (the level of communication, participation in joint initiatives etc.)",
