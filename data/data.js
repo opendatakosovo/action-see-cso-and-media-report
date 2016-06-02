@@ -273,7 +273,7 @@ function getData() {return {
     },
     "19": {
       "Executive": {
-        "Very high": 0
+        "Very high": 0,
         "High": 0,
         "Moderate": 7,
         "Low": 0,
