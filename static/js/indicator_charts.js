@@ -34,9 +34,19 @@ function drawLineChart(div, tab){
 		var xAxis = [];
 		colName = colName.concat(i);
 
+		// Ensure keys are sorted correctly
+	    var keys = [];
+	    var k, j, len;
 
+	  	for (k in indices) {
+	    	if (indices.hasOwnProperty(k)) {
+				keys.push(k);
+	    	}
+		}
 
+		keys.sort();
 		len = keys.length;
+
 		// Cycle through keys in order
 		for (j = 0; j < len; j++) {
 		  	k = keys[j];
@@ -216,7 +226,8 @@ function drawBarChart(div, tab, stacked){
 			labels: {
 				style: {
 					color: lineColor
-				}
+				},
+				order: -1
 			},
 			gridLineColor: lineColor,
 			gridLineDashStyle: 'ShortDot',
@@ -224,7 +235,6 @@ function drawBarChart(div, tab, stacked){
 				value: 0,
 				width: 1,
 			}]
-
 		},
 		tooltip: {
 			valuePrefix: prefix,
@@ -296,7 +306,7 @@ $(document).ready(function(){
 	drawBarChart('chart18', '18', false);
 	drawBarChart('chart19', '19', false);
 	drawBarChart('chart20', '20', false);
-	drawBarChart('chart21', '21', false);
+	drawBarChart('chart21', '21', false);s
 	drawBarChart('chart22', '22', false);
 	drawBarChart('chart23', '23', false);
 	drawBarChart('chart24', '24', false);
