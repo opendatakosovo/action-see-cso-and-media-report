@@ -6,7 +6,9 @@ function getData() {return {
           "Moderate": 7,
           "Low": 1,
           "Very low": 1
-      }
+      },
+      index:1
+
     },
     "2": {
         "Peoples": {
