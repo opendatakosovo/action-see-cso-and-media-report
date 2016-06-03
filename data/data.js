@@ -147,7 +147,7 @@ function getData() {return {
     "13": {
       "Executive": {
       "Very low": 0,
-      "Low": 1,
+      "Low": 0,
       "Moderate": 8,
       "High": 4,
         "Very high": 0
